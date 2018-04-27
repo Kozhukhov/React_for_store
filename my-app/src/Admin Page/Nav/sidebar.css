@@ -1,0 +1,20 @@
+.Sidebar{
+    margin-top:60px;
+    list-style-type:none;
+    padding:0px;
+    width:100%;
+}
+.Sidebar li{
+    width:100%;
+    margin-left:0px;
+    padding:10px 0px 10px 35px;
+    font-size:18px;
+    line-height: 20px;
+}
+.Sidebar li:hover{
+    background-color: rgb(16,117,160);
+}
+.Sidebar li a{
+    color:white;
+    text-decoration: none;
+}

@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import SidebarItem from "./SidebarItem";
+import "./sidebar.css";
 class Sidebar extends React.Component {
     render() {
       return (
-        <div className="Sidebar">
-          <SidebarItem value="Order" />
+        <ul className="Sidebar">
+          <SidebarItem value="Orders" />
           <SidebarItem value="Products" />
           <SidebarItem value="Categories" />
-        </div>
+        </ul>
       );
     }
   }

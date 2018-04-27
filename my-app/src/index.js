@@ -9,7 +9,7 @@ class AdminPage extends React.Component {
   render(props) {
     return (
       <div>
-        <Search />
+        <Search/>
         <Nav />
         <ContentCategories />
       </div>
